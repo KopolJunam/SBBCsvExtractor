@@ -16,8 +16,8 @@ Ticket-Typen sind z.B.
 - Streckenbillett
 - ZVV Einzelbillett
 
-Das Programm erzeugt - wenn noch nicht vorhanden - eine Datei ./tickettypes.txt, mit den Ticekt-Typen, wie sie bei mir vorkamen. Darum ist es wichtig, das Programm immer mit dem gleichen Arbeitsverzeichnis laufenzulassen.
-Erkennt das Programm gewisse Tickettypen nicht, so werden entsprechende Fehlermeldungen ausgegeben, und die fehlenden Tickettypen können in der Datei eingetragen werden.
+Das Programm erzeugt - wenn noch nicht vorhanden - eine Datei ./tickettypes.txt, mit den Ticket-Typen, wie sie bei mir vorkamen. Darum ist es wichtig, das Programm immer mit dem gleichen Arbeitsverzeichnis laufenzulassen.
+Erkennt das Programm gewisse Ticket-Typen nicht, so werden entsprechende Fehlermeldungen ausgegeben, und die fehlenden Ticket-Typen können in der Datei eingetragen werden.
 
 **MEHRERE REISENDE**
 
