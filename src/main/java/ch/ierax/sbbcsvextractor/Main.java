@@ -15,9 +15,14 @@ import java.util.stream.Collectors;
 public class Main {
     private static final DateTimeFormatter DATEFORMATTER = DateTimeFormatter.ofPattern("dd.MM.yyyy");
     private static final String TICKETTYPEFILENAME = "./tickettypes.txt";
-    private static final List<String> originalTicketTypes = List.of(" ", "Arcobaleno Einzelbillett", "Klassenwechsel Strecke"
-            , "Sparbillett", "Sparklassenwechsel", "Spartageskarte", "Streckenbillett", "Z-Pass OSTWIND-ZVV " +
-                    "Tageskarte", "ZVV Einzelbillett", "engadin mobil Einzelbillett");
+    private static final List<String> originalTicketTypes = List.of(" ", "Arcobaleno Einzelbillett", "Klassenwechsel " +
+                    "Strecke", "Sparbillett", "Sparklassenwechsel", "Spartageskarte", "Streckenbillett", "Z-Pass OSTWIND-ZVV " +
+                    "Tageskarte", "ZVV Einzelbillett", "engadin mobil Einzelbillett", "Velo-Tageskarte", "ZVV " +
+                    "9-Uhr-Tagespass", "ZVV 9-Uhr-Tagespass Velo", "ZVV 24h-Ticket", "ZVV Anschluss-24h-Ticket", "ZVV" +
+                    " Anschlussbillett", "Z-Pass A-Welle-ZVV Einzelbillett", "Z-Pass A-Welle-ZVV Tageskarte", "Z-Pass" +
+                    " OSTWIND-ZVV Einzelbillett", "Z-Pass Schwyz/Zug-ZVV Einzelbillett", "Z-Pass Schwyz/Zug-ZVV " +
+                    "Tageskarte", "A-Welle Einzelbillett", "A-Welle Tageskarte", "Libero Einzelbillett", "OSTWIND " +
+                    "Einzelbillett", "Passepartout Einzelbillett", "Smart inkl. Sitzplatzreservierung");
 
     public static void main(String[] args) {
         if (args.length != 1) {
